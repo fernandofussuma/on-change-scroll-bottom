@@ -19,7 +19,8 @@ class OnChangeScrollBottomView
     editor = atom.workspace.getActiveTextEditor()
     if editor
       @disposables[editor.id] = editor.onDidStopChanging ->
-        editor.setCursorBufferPosition([editor.getLastScreenRow(), 0])
+        editor.setCursorScreenPosition([editor.getLastScreenRow(), 0])
+        atom.beep()
 
   stop: ->
     console.log 'stop /o/'
