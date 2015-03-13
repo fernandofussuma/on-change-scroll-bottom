@@ -1,0 +1,16 @@
+{
+  "name": "on-change-scroll-bottom",
+  "main": "./lib/on-change-scroll-bottom",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "on-change-scroll-bottom:toggle"
+  },
+  "repository": "https://github.com/atom/on-change-scroll-bottom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
