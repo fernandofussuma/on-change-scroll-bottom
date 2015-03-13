@@ -2,7 +2,7 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle on-change-scroll-bottom'
+      'label': 'Toggle on change scroll to bottom'
       'command': 'on-change-scroll-bottom:toggle'
     }
   ]
@@ -10,7 +10,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'on-change-scroll-bottom'
+      'label': 'On change scroll to bottom'
       'submenu': [
         {
           'label': 'Toggle'
